@@ -1,0 +1,35 @@
+{
+    "name": "speelpenning/laravel-postcode-nl",
+    "description": "A Laravel client using the Postcode.nl REST API for Dutch address verification.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gerben Speelpenning",
+            "email": "gerben@speelpenning.nl"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "~6.0",
+        "illuminate/config": "^5.7.*",
+        "illuminate/contracts": "^5.7.*",
+        "illuminate/routing": "^5.7.*",
+        "illuminate/support": "^5.7.*",
+        "illuminate/validation": "^5.7.*"
+    },
+    "require-dev": {
+        "laravel/laravel": "^5.7.*",
+        "phpunit/phpunit": "~7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Speelpenning\\PostcodeNl\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php"
+        ]
+    }
+}
